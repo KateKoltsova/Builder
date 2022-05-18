@@ -1,0 +1,21 @@
+{
+    "name": "koltsova/builder",
+    "description": "Builder project",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Koltsova\\Builder\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kate Koltsova",
+            "email": "kate.petronyuk@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "aigletter/contracts": "^1.0"
+    }
+}
